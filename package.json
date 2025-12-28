@@ -1,0 +1,38 @@
+{
+  "name": "mysql2-helper",
+  "version": "1.0.0",
+  "description": "A simple and elegant MySQL2 helper class with common database operations",
+  "main": "index.mjs",
+  "type": "module",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mysql",
+    "mysql2",
+    "database",
+    "helper",
+    "orm",
+    "sql",
+    "query",
+    "transaction"
+  ],
+  "author": "Bhupender",
+  "license": "MIT",
+  "peerDependencies": {
+    "mysql2": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mysql2-helper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mysql2-helper/issues"
+  }
+}
